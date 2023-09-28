@@ -8,8 +8,8 @@ addLayer("w", {
     }},
     color: "#FFFFFF",
     requires: new Decimal(1), // Can be a function that takes requirement increases into account
-    resource: "white points", // Name of prestige currency
-    baseResource: "particles", // Name of resource prestige is based on
+    resource: "White Photons", // Name of prestige currency
+    baseResource: "Photons", // Name of resource prestige is based on
     baseAmount() {return player.points}, // Get the current amount of baseResource
     type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     exponent: 0.5, // Prestige currency exponent
